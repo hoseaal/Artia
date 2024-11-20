@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artia - Galery</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="icon" type="image/png" href="/public/img/Artia.png">
+</head>
+
+<body>
+    
+
+    <div id="pantalla">
+        <header id="contenedor">
+            <div class="menua">
+                <div id="Logo">
+                    <a href="#"><img src="/public/img/Artia.png" alt="Logo de ARTIA"></a>
+                </div>
+                <ul id="home">
+                    <li><a href="./index.html">home</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div id="menu">
+            <div class="img_container">
+                <img src="/public/img/artworks/1.jpeg" alt="Menu">
+            </div>
+            <h1>Galería de Arte</h1>
+            <div class="content">
+                
+                <p>Esta es una Galería 3D interactiva</p>
+                <p>Hecha con THREE.JS</p>
+
+                <h2>Instrucciones</h2>
+                <p>Usa las flechas ubicadas a la izquierda para transladarte</p>
+                <p>Y las flechas ubicadas a la derecha para girar la vista</p>
+            </div>
+            <div id="play_button">
+                <p>EXPLORA</p>
+            </div>
+        </div>
+
+        <div id="painting-info">
+            <p id="title">Titulo: </p>
+            <p id="Nombre">Autor:</p>
+            <p id="year">-</p>
+        </div>
+
+        <div id="controles">
+            <div id="arriba"></div>
+            <div id="abajo"></div>
+            <div id="derecha"></div>
+            <div id="izquierda"></div>
+        </div>
+
+        <div id="giro">
+            <div id="gderecha"></div>
+            <div id="gizquierda"></div>
+        </div>
+
+    </div>
+    <script src="three.js"></script>
+    <script src="/main.js"></script>
